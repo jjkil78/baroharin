@@ -1,0 +1,32 @@
+# Node
+**/node_modules
+frontend/dist
+frontend/*.tsbuildinfo
+# vite.config.ts compile outputs
+frontend/vite.config.js
+frontend/vite.config.d.ts
+
+# Gradle / Java
+**/.gradle/
+backend/build/
+**/*.class
+backend/bin/
+backend/out/
+
+# H2 runtime data
+backend/data/
+backend/boot.log
+
+# IDE / tools
+.idea/
+.vscode/
+.claude/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env / secrets
+.env
+.env.local
