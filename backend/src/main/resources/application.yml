@@ -31,7 +31,7 @@ app:
   jwt:
     secret: ${APP_JWT_SECRET:kb-pay-baroharin-demo-secret-key-please-change-in-production-2026}
     expiration-ms: 86400000  # 24h
-  initial-balance: 0
+  initial-balance: 100000
   cors:
     allowed-origins: ${APP_CORS_ALLOWED_ORIGINS:http://localhost:5173}
 

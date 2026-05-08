@@ -25,7 +25,7 @@ export default function Header() {
           <span className="text-sm font-bold text-kb-dark/80">바로할인</span>
         </Link>
         <div className="text-right">
-          {user ? (
+          {user && token ? (
             <Link to="/orders" className="block">
               <div className="text-[10px] text-kb-dark/70">최근 3개월 혜택</div>
               <div className="text-sm font-bold text-kb-dark">{formatKRW(benefit)}</div>
